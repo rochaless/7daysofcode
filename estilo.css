@@ -294,7 +294,7 @@ body {
     height: 28px;
     border-radius: 16px;
     padding: 4px 12px 4px 12px;
-    background-color: #ececec;
+    background-color: rgba(196, 25, 25, 0.03);
     font-weight: 600;
     font-size: 16px;
     line-height: 29px;
@@ -336,7 +336,7 @@ body {
     display: flex;
     justify-content: center;
     width: 1280px;
-    height: 358px;
+    height: 550px;
     gap: 64px;
 }
 
@@ -387,6 +387,80 @@ body {
     line-height: 24px;
     color: #667085;
 }
+
+/*depoimentos*/
+#depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1440px;
+    padding: 0 0 96px 0;
+}
+
+#depoimentos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1280px;
+    height: 404px;
+    padding: 0 32px 0 32px;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1216px;
+    padding-top: 64px;
+    padding-bottom: 20px;
+}
+
+#quote span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1088px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E2424;
+}
+
+#quote h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1088px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101810;
+}
+
+#person {
+    gap: 16px;
+    padding-bottom: 64px;
+}
+
+.person-nome {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+}
+
+.person-job {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
 
 
 
